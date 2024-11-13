@@ -1,0 +1,19 @@
+name: pytorch_env
+channels:
+  - conda-forge
+  - nvidia
+  - pytorch
+  - defaults
+  - https://repo.anaconda.com/pkgs/main
+  - https://repo.anaconda.com/pkgs/r
+  - https://repo.anaconda.com/pkgs/msys2
+dependencies:
+  - pytorch
+  - pytorch-cuda=12.4
+  - torchaudio
+  - torchvision
+  - ipykernel
+  - matplotlib
+  - scipy
+  - seaborn
+  - optuna
