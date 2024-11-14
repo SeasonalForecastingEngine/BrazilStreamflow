@@ -1,4 +1,4 @@
-name: pytorch_env
+name: brazil_streamflow_env
 channels:
   - conda-forge
   - nvidia
@@ -17,3 +17,12 @@ dependencies:
   - scipy
   - seaborn
   - optuna
+  - ignite
+  - scikit-learn
+  - xarray
+  - basemap
+  - netcdf4
+  - cvxopt
+  - cartopy
+
+
